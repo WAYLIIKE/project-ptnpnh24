@@ -2,23 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Focus.Frame</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
+    <!-- Header by Anya Semonenko -->
+    <load src="./partials/header.html" />
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
+    <main>
+      <!-- Hero by Irina Lender -->
+      <load src="./partials/hero.html" />
+      <!-- Advertisement by Irina Lender -->
+      <load src="./partials/advertisement.html" />
+      <!-- About us by Анастасія Халупська -->
+      <load src="./partials/about.html" />
+      <!-- Our courses by Валентина Бігун -->
+      <load src="./partials/courses.html" />
+      <!-- Our mentors by Elena Vyshniak -->
+      <load src="./partials/mentors.html" />
+      <!-- Sign up by Sofiia -->
+      <load src="./partials/signup.html" />
+      <!-- Reviews by Соня -->
+      <load src="./partials/reviews.html" />
+    </main>
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+    <!-- Footer by Maksym Kasian -->
+    <load src="./partials/footer.html" />
 
-    <script type="module" src="/main.js"></script>
+    <!-- Mobile menu by Юлия Левчук -->
+    <load src="./partials/mobilemenu.html" />
+
+    <!-- Script for mobile menu -->
+    <script defer src=""></script>
   </body>
 </html>

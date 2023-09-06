@@ -1,0 +1,46 @@
+/*
+|====================================
+| Base styles
+|====================================
+*/
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Phone screens */
+.container {
+  min-width: 320px;
+  max-width: 335px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+/* Tablet screens */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+}
+
+/* Desktop screens */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1074px;
+  }
+}
+
+/* Desktop screens */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1242px;
+  }
+}
