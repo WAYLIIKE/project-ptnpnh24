@@ -23,9 +23,11 @@
     flex-wrap: wrap;
   }
 }
-.footer-logo {
-  display: flex;
-  margin-bottom: 20px;
+.footer-logo{
+fill: var(--white);
+width: 123px;
+height: 16px;
+margin-bottom: 20px;
 }
 @media only screen and (min-width: 678px) {
    .footer-logo{
