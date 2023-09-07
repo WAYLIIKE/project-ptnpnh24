@@ -1,0 +1,102 @@
+.reviews {
+    padding: 80px 0;
+}
+
+.reviews-container {
+
+}
+
+.reviews-item {
+    max-width: 355px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid 
+    rgba(255, 255, 255, 0.20);
+}
+
+.reviews-h {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 114.286% */
+    letter-spacing: -1.12px;
+    padding-bottom: 40px;
+}
+
+.reviews-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.reviews-h-third {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+}
+
+.reviews-h-forth {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.24px;
+}
+
+.reviews-stars {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    padding-left: 86px;
+}
+
+.reviews-icon-pink {
+    fill: var(--brown);
+}
+
+.reviews-icon-star {
+    fill: #414141;
+}
+
+.reviews-p {
+    max-width: 295px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    padding: 20px;
+}
+
+.reviews-img {
+    border-radius: 100px;
+    background: var(--avatar-user-square-ethan-valdez-neutral-background, 
+    url(<path-to-image>), 
+    lightgray 50% / cover no-repeat, 
+    #E0E0E0);
+    padding-right: 10px;
+}
+
+.reviews-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.reviews-student {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0 0 20px;
+}
+
+@media screen and (max-width: 1158px) {
+  .reviews-amanda {
+    display: none;
+  }
+}
