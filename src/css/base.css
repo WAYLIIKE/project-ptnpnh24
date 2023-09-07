@@ -13,34 +13,60 @@ body {
 /* Phone screens */
 .container {
   min-width: 320px;
-  max-width: 335px;
+  max-width: 355px;
   padding-left: 10px;
   padding-right: 10px;
 
   margin-left: auto;
   margin-right: auto;
+}
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section {
+  padding-bottom: 80px;
 }
 
 /* Tablet screens */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 736px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  header {
+    padding-bottom: 40px;
+  }
+
+  section {
+    padding-bottom: 100px;
   }
 }
 
 /* Desktop screens */
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1074px;
+    max-width: 1104px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  header {
+    padding-bottom: 80px;
+  }
+
+  section {
+    padding-bottom: 150px;
   }
 }
 
 /* Desktop screens */
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1242px;
+    max-width: 1272px;
   }
 }
