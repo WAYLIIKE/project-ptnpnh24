@@ -18,32 +18,6 @@
   line-height: 1.1;
   letter-spacing: -1.6px;
 }
-.hero-text {
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.28;
-  letter-spacing: -0.28px;
-  margin-bottom: 40px;
-}
-.hero-student {
-  position: relative;
-  display: flex;
-  gap: 40px;
-}
-.hero-studetnt-icon {
-  display: flex;
-}
-.hero-studetnt-icon:nth-child(1) {
-  z-index: -1;
-}
-.hero-studetnt-icon:nth-child(2) {
-  z-index: 2;
-}
-.hero-studetnt-icon:nth-child(3) {
-  z-index: 3;
-}
-
 .hero-photography {
   color: var(--brown);
   font-family: var(--primary-font);
@@ -53,6 +27,67 @@
   line-height: 1.1;
   letter-spacing: -1.6px;
 }
+.hero-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  margin-bottom: 40px;
+}
+.hero-student {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 63px;
+}
+.hero-student-list {
+  display: flex;
+  margin-bottom: 4px;
+}
+.hero-student-photo {
+  border-radius: 50%;
+  border: 2px solid #1d1d1d;
+  background: var(
+    --avatar-user-square-caitlyn-king-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
+}
+.hero-student-photo:nth-child(1) {
+  position: relative;
+  z-index: 3;
+}
+.hero-student-photo:nth-child(2) {
+  position: relative;
+  z-index: 2;
+  left: -10px;
+}
+.hero-student-photo:nth-child(3) {
+  position: relative;
+  z-index: 1;
+  left: -24px;
+}
+.hero-student-link {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.hero-student-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  max-width: 67px;
+}
+.hero-svg-arrow {
+  fill: currentColor;
+}
+.hero-reviews-form {
+  display: flex;
+  gap: 12px;
+}
 .hero-star {
   display: inline-flex;
   align-items: center;
@@ -61,4 +96,28 @@
   height: 44px;
   background-color: var(--brown);
   border-radius: 50%;
+}
+.hero-reviews {
+  display: block;
+}
+.hero-reviews-tittle {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-bottom: 4px;
+}
+.hero-reviews-number {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.64px;
+}
+.hero-main-photo {
+  margin-left: auto;
+  margin-right: auto;
 }
