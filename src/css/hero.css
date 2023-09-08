@@ -185,6 +185,7 @@
   }
   .main-thumb {
     max-width: 393px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
@@ -194,6 +195,7 @@
     padding-top: 64px;
   }
 }
+/* Desktop */
 @media screen and (min-width: 1280px) {
   .hero-container {
     padding-left: 50px;
@@ -202,9 +204,13 @@
     display: flex;
     gap: 20px;
   }
+  .hero-tittle {
+    max-width: 563px;
+  }
   .hero-text-box {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
   }
   .hero-tittle {
     font-size: 64px;
@@ -216,5 +222,14 @@
   }
   .main-thumb {
     max-width: 397px;
+  }
+  .hero-student {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    padding-right: 100px;
+    gap: 130px;
   }
 }
