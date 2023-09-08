@@ -3,6 +3,7 @@
   padding-bottom: 20px;
   font-family: var(--primary-font);
   background-image: url(../img/footer/Graphic.png);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media only screen and (max-width: 374.98px) {
   .footer {
@@ -17,28 +18,40 @@
 }
 .topon {
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .topon {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 74px;
   }
 }
-.footer-logo{
-fill: var(--white);
-width: 123px;
-height: 16px;
-margin-bottom: 20px;
+@media only screen and (min-width: 1280px) {
+  .topon {
+    margin-bottom: 50px;
+  }
+}
+.footer-logo {
+  fill: var(--white);
+  width: 123px;
+  height: 16px;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
-   .footer-logo{
+  .footer-logo {
     margin-bottom: 25px;
   }
 }
 .footer-address {
   font-style: normal;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 767.98px) {
+  .footer-address {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
   .footer-address {
     margin-right: 58px;
   }
@@ -49,15 +62,12 @@ margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 1440px) {
-    .footer-address {
-      margin-right: 341px;
-    }
+  .footer-address {
+    margin-right: 341px;
   }
+}
 .footer-contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
+  display: block;
 }
 .footer-tel {
   display: flex;
@@ -65,45 +75,56 @@ margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.3;
   text-transform: uppercase;
-  max-width: 142px;
+  margin-bottom: 10px;
 }
 .footer-home {
   color: var(--white);
   font-size: 14px;
   line-height: 1.3;
 }
-.footer-block {
-  margin-top: 40px;
+.footer-combo {
   display: flex;
-  gap: 40px;
+}
+@media only screen and (max-width: 767.98px) {
+  .footer-combo {
+    margin-bottom: 75px;
+  }
+}
+.footer-social {
+  display: block;
+  margin-right: 40px;
 }
 @media only screen and (min-width: 768px) {
-  .footer-block {
-    margin-right: 59px;
-    gap: 25px;
-    margin-top: 0;
+   .footer-social{
+    margin-right: 25px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .footer-block {
-    margin-right: 135px;
-    gap: 50px;
+  .footer-social{
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 1440px) {
-    .footer-block {
-      margin-right: 191px;
-      gap: 100px;
-    }
+  .footer-social{
+    margin-right: 100px;
   }
-.footer-social {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+}
+.footer-pages {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .footer-pages{
+   margin-right: 59px;
+ }
 }
 @media only screen and (min-width: 1280px) {
-  .footer-social {
-   gap: 20px;  
+  .footer-pages{
+    margin-right: 130px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer-pages{
+    margin-right: 191px;
   }
 }
 .footer-block-net {
@@ -114,14 +135,22 @@ margin-bottom: 20px;
   text-transform: uppercase;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-networks:not(:last-child) {
+  margin-bottom: 14px;
+}
+@media only screen and (min-width: 1280px) {
+  .footer-networks:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
 .footer-block-net:hover,
 .footer-block-net:focus {
   color: var(--brown);
 }
-.footer-form-div {
-  margin-top: 75px;
-}
-@media only screen and (min-width: 768px){
+/* .footer-form-div {
+  
+} */
+@media only screen and (min-width: 768px) {
   .footer-form-div {
     margin-top: 0;
   }
@@ -131,9 +160,9 @@ margin-bottom: 20px;
   flex-direction: row;
   gap: 8px;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1280px) {
   .footer-form {
-    gap: 16px ;
+    gap: 16px;
   }
 }
 .footer-form-input {
@@ -148,7 +177,7 @@ margin-bottom: 20px;
   padding-left: 18px;
   color: var(--dark-gray);
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .footer-form-input {
     width: 178px;
   }
@@ -177,21 +206,11 @@ margin-bottom: 20px;
   text-align: center;
 }
 .footer-end {
-  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-@media only screen and (min-width: 768px){
-  .footer-end {
-    margin-top: 74px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .footer-end {
-    margin-top: 50px;
-  }
-}
+
 .footer-privat {
   color: var(--white);
   font-size: 12px;
