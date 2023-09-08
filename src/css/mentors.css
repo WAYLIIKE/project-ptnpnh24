@@ -1,6 +1,9 @@
 /* Mentors section */
-.mentors-section {
-  background: var(--black);
+
+@media only screen and (max-width: 767.98px) {
+  .mentors-section {
+    background: var(--black);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -22,7 +25,6 @@
 @media only screen and (min-width: 1440px) {
   .mentors-section {
     width: 1189px;
-    margin-right: 151px;
   }
 }
 
@@ -100,6 +102,8 @@
 
 @media only screen and (min-width: 1440px) {
   .mentors-item {
+    padding-left: 84px;
+    padding-right: 32px;
   }
 }
 
