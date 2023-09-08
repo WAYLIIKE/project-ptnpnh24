@@ -1,5 +1,29 @@
 /* Mentors section */
 .mentors-section {
+  background: var(--black);
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-section {
+    width: 704px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-section {
+    width: 1079px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-section {
+    width: 1189px;
+    margin-right: 151px;
+  }
 }
 
 .mentors-title {
@@ -12,21 +36,50 @@
   letter-spacing: 0.04em;
 }
 
+@media only screen and (min-width: 768px) {
+  .mentors-title {
+    font-size: 48px;
+    line-height: 1.125;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-title {
+    margin-bottom: 50px;
+  }
+}
+
 .mentors-title-two {
   color: var(--brown);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.04em;
 }
 
 .mentors-list {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media only screen and (max-width: 767.98px) {
-  .mentors-item:not(:last-child) {
-    margin-bottom: 40px;
+@media only screen and (min-width: 768px) {
+  .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 93px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-list {
+    display: inline-flex;
+    gap: 113px;
   }
 }
 
@@ -37,19 +90,53 @@
   align-items: center;
   gap: 16px;
   flex-shrink: 0;
-  margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767.98px) {
   .mentors-item {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 93px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-item {
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .mentors-item:not(:last-child) {
+    margin-bottom: 40px;
   }
 }
 
 .mentors-ill {
   border-radius: 200px;
+}
+
+.mentors-content {
+  display: flex;
+  width: 149px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-content {
+    width: 194px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-content {
+    width: 194px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-content {
+    width: 174px;
+  }
 }
 
 .mentors-title-mentors {
@@ -70,5 +157,11 @@
   font-weight: 400;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-desk {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
