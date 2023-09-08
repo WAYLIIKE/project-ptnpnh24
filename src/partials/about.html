@@ -1,13 +1,43 @@
-<section class="about">
+<section class="about_section" id="about">
     <div class="container">
         <h2 class="about-title">
             About  <span class="about-title-end">Us</span></h2>
 
             <div class="about-wrapper">
-                <img 
-                class="about-photo" 
-                src="./img/about-menu/universal-camera.jpg" 
-                width="209">
+                <picture class="box">
+                <!-- 1440 -->
+                    <source
+                    media="(min-width: 1440px)"
+                    srcset="./img/about/camera-desktop1440.jpg 1x,  ./img/about/camera-desktop1440@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <!-- 1280 -->
+                    <source
+                    media="(min-width: 1280px)"
+                    srcset="./img/about/camera-desktop1280.jpg 1x,  ./img/about/camera-desktop1280@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <!-- 768 -->
+                <source
+                    media="(min-width: 768px)"
+                    srcset="./img/about/camera-tablet.jpg 1x, ./img/about/camera-tablet@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <!-- Mobile -->
+                <source
+                    media="(max-width: 767px)"
+                    srcset="./img/about/camera-mobile.jpg 1x, ./img/about/camera-mobile@2x.jpg 2x"
+                    type="image/jpg"
+                />
+                <img
+                    class="about-photo"
+                    src="./img/about/camera-mobile.jpg"
+                    alt="Camera"
+                    width="209"
+                    height="335"
+                    loading="lazy"
+                />
+                </picture>
 
                 <ul class="about-list">
                     <li class="about-list_item">
