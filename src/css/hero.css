@@ -9,7 +9,6 @@
   border-radius: 30px;
 }
 .hero-tittle {
-  margin: 0 auto;
   margin-bottom: 20px;
   max-width: 295px;
   font-size: 40px;
@@ -118,6 +117,35 @@
   letter-spacing: -0.64px;
 }
 .hero-main-photo {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+  .hero-container {
+    padding-left: 32px;
+    padding-right: 155px;
+    padding-top: 64px;
+  }
+  .hero-tittle {
+    max-width: 517px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+  }
+  .hero-photography {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.07;
+    letter-spacing: -2.4px;
+  }
+  .hero-text {
+    max-width: 418px;
+  }
+  .hero-student {
+    margin-bottom: 40px;
+  }
+  .hero-student-photo {
+  }
 }
