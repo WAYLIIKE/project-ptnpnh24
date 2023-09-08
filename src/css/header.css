@@ -46,7 +46,7 @@
 }
 @media only screen and (max-width: 767.98px) {
   .header-logo-link {
-    margin-right: 94px;
+    margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -124,6 +124,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 @media only screen and (min-width: 1280px) {
   .burger-menu-button {
