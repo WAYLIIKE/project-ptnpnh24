@@ -1,0 +1,33 @@
+.signup-section {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+}
+
+.signup-text {
+    width: 480px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: -0.32px;
+}
+
+.form-input {
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.form-textarea {
+    width: 480px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
