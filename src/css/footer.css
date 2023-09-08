@@ -2,13 +2,14 @@
   padding-top: 40px;
   padding-bottom: 20px;
   font-family: var(--primary-font);
+  background-image: url(../img/footer/Graphic.png);
 }
 @media only screen and (max-width: 374.98px) {
   .footer {
     width: 100%;
   }
 }
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 768px) {
   .footer {
     padding-top: 50px;
     padding-bottom: 25px;
@@ -17,7 +18,7 @@
 .topon {
   flex-wrap: wrap;
 }
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 768px) {
   .topon {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +30,7 @@ width: 123px;
 height: 16px;
 margin-bottom: 20px;
 }
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 768px) {
    .footer-logo{
     margin-bottom: 25px;
   }
@@ -37,7 +38,7 @@ margin-bottom: 20px;
 .footer-address {
   font-style: normal;
 }
-@media only screen and (min-width: 678px){
+@media only screen and (min-width: 768px){
   .footer-address {
     margin-right: 58px;
   }
@@ -76,7 +77,7 @@ margin-bottom: 20px;
   display: flex;
   gap: 40px;
 }
-@media only screen and (min-width: 678px) {
+@media only screen and (min-width: 768px) {
   .footer-block {
     margin-right: 59px;
     gap: 25px;
@@ -120,7 +121,7 @@ margin-bottom: 20px;
 .footer-form-div {
   margin-top: 75px;
 }
-@media only screen and (min-width: 678px){
+@media only screen and (min-width: 768px){
   .footer-form-div {
     margin-top: 0;
   }
@@ -147,7 +148,7 @@ margin-bottom: 20px;
   padding-left: 18px;
   color: var(--dark-gray);
 }
-@media only screen and (min-width: 678px){
+@media only screen and (min-width: 768px){
   .footer-form-input {
     width: 178px;
   }
@@ -174,7 +175,6 @@ margin-bottom: 20px;
   border: none;
   border-radius: 12px;
   text-align: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-end {
   margin-top: 40px;
@@ -182,7 +182,7 @@ margin-bottom: 20px;
   align-items: center;
   justify-content: space-between;
 }
-@media only screen and (min-width: 678px){
+@media only screen and (min-width: 768px){
   .footer-end {
     margin-top: 74px;
   }
