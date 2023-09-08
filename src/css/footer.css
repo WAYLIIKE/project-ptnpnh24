@@ -192,8 +192,6 @@
 }
 .footer-button {
   color: var(--white);
-  justify-content: center;
-  align-items: center;
   font-size: 20px;
   line-height: 1.2;
   background-color: var(--dark-gray);
