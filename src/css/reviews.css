@@ -1,13 +1,17 @@
 .reviews {
-    padding: 80px 0;
 }
 
 .reviews-container {
+    max-width: 335px;
+    max-height: 244px;
+    flex-shrink: 0;
+}
 
+.reviews-list {
+    display: flex;
 }
 
 .reviews-item {
-    max-width: 355px;
     align-items: center;
     border-radius: 12px;
     border: 1px solid 
@@ -53,7 +57,7 @@
     padding-left: 86px;
 }
 
-.reviews-icon-pink {
+.reviews-icon-pinck {
     fill: var(--brown);
 }
 
@@ -62,7 +66,6 @@
 }
 
 .reviews-p {
-    max-width: 295px;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -80,13 +83,6 @@
     padding-right: 10px;
 }
 
-.reviews-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-}
-
 .reviews-student {
     display: inline-flex;
     justify-content: center;
@@ -95,8 +91,103 @@
     padding: 20px 0 0 20px;
 }
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1279px) {
   .reviews-amanda {
     display: none;
   }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews {
+        display: flex;
+    }
+
+    .reviews-container {
+        max-width: 704px;
+    }
+
+    .reviews-item {
+        max-width: 640px;
+        max-height: 196px;
+        margin: 0 32px;
+    }
+
+    .reviews-student {
+    }
+
+    .reviews-text {
+        align-items: right;
+    }
+
+    .reviews-h {
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+        padding-bottom: 50px;
+    }
+
+    .reviews-h-third {
+        line-height: 28px;
+    }
+
+    .reviews-h-forth {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+
+    .reviews-p {
+        font-size: 16px;
+        line-height: 20px; /* 125% */
+        letter-spacing: -0.32px;
+    }
+
+    .reviws-list {
+        padding: 50px 20px 0 20px ;
+    }
+
+    .reviews-stars {
+        float: right;
+        right: 0px;
+        padding: 20px 20px 0 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .reviews-container {
+        max-width: 1080px;
+    }
+
+    .reviews-item {
+        max-width: 530px;
+        max-height: 216px;
+        margin: 0;
+    }
+
+    .reviews-abraham {
+    }
+
+    .reviews-list {
+        gap: 17px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .reviews-container{
+        max-width: 1240px;
+    }
+
+    .reviews-list {
+        gap: 20px;
+    }
+
+    .reviews-item {
+        max-width: 610px;
+        max-height: 196px;
+    }
 }
