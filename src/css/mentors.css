@@ -40,6 +40,7 @@
 
 @media only screen and (min-width: 768px) {
   .mentors-title {
+    margin-bottom: 50px;
     font-size: 48px;
     line-height: 1.125;
   }
@@ -55,63 +56,44 @@
   color: var(--brown);
 }
 
-.mentors-list {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media only screen and (min-width: 768px) {
   .mentors-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 100px;
+    column-gap: 100px;
+    row-gap: 93px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .mentors-list {
-    display: inline-flex;
-    align-items: flex-start;
     gap: 93px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .mentors-list {
-    display: inline-flex;
     gap: 113px;
   }
-}
-
-.mentors-item {
-  display: flex;
-  width: 185px;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  flex-shrink: 0;
 }
 
 @media only screen and (max-width: 767.98px) {
   .mentors-item {
     margin: 0 auto;
   }
-}
 
-@media only screen and (min-width: 1280px) {
-  .mentors-item {
-    padding: 0 33px;
+  .mentors-ill {
+    margin: 16px auto;
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
   .mentors-item {
-    padding-left: 84px;
-    padding-right: 32px;
+    max-width: 180px;
   }
-}
+  }
 
 @media only screen and (max-width: 767.98px) {
   .mentors-item:not(:last-child) {
@@ -119,33 +101,13 @@
   }
 }
 
-.mentors-ill {
-  border-radius: 200px;
-}
-
-.mentors-content {
-  display: flex;
-  width: 149px;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-
 @media only screen and (min-width: 768px) {
   .mentors-content {
     width: 194px;
   }
-}
 
-@media only screen and (min-width: 1280px) {
-  .mentors-content {
-    width: 194px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .mentors-content {
-    width: 174px;
+  .mentors-ill {
+    margin-bottom: 16px;
   }
 }
 
@@ -156,7 +118,18 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  gap: 4px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .mentors-title-mentors {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+  }
 }
 
 .mentors-desk {
