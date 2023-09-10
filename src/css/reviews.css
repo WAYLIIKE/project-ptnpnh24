@@ -1,14 +1,7 @@
-.reviews {
-}
 
 .reviews-container {
     max-width: 335px;
-    max-height: 244px;
     flex-shrink: 0;
-}
-
-.reviews-list {
-    display: flex;
 }
 
 .reviews-item {
@@ -18,13 +11,17 @@
     rgba(255, 255, 255, 0.20);
 }
 
+.reviews-div {
+    margin: 20px;
+}
+
 .reviews-h {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 114.286% */
     letter-spacing: -1.12px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .reviews-text {
@@ -54,7 +51,7 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 4px;
-    padding-left: 86px;
+    padding-left: 66px;
 }
 
 .reviews-icon-pinck {
@@ -71,7 +68,7 @@
     font-weight: 400;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .reviews-img {
@@ -80,7 +77,6 @@
     url(<path-to-image>), 
     lightgray 50% / cover no-repeat, 
     #E0E0E0);
-    padding-right: 10px;
 }
 
 .reviews-student {
@@ -88,7 +84,6 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 20px 0 0 20px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -98,21 +93,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .reviews {
-        display: flex;
-    }
-
     .reviews-container {
         max-width: 704px;
     }
 
-    .reviews-item {
+    .reviews-item { 
         max-width: 640px;
-        max-height: 196px;
         margin: 0 32px;
-    }
-
-    .reviews-student {
     }
 
     .reviews-text {
@@ -123,7 +110,7 @@
         font-size: 48px;
         line-height: 54px;
         letter-spacing: -1.92px;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .reviews-h-third {
@@ -137,7 +124,7 @@
     }
 
     .reviews-p {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px; /* 125% */
         letter-spacing: -0.32px;
     }
@@ -149,31 +136,23 @@
     .reviews-stars {
         float: right;
         right: 0px;
-        padding: 20px 20px 0 0;
+        padding: 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .reviews {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
     .reviews-container {
-        max-width: 1080px;
+        max-width: 1074px;
     }
 
     .reviews-item {
         max-width: 530px;
-        max-height: 216px;
         margin: 0;
-    }
-
-    .reviews-abraham {
     }
 
     .reviews-list {
         gap: 17px;
+        display: flex;
     }
 }
 
@@ -182,12 +161,11 @@
         max-width: 1240px;
     }
 
-    .reviews-list {
-        gap: 20px;
-    }
-
     .reviews-item {
         max-width: 610px;
-        max-height: 196px;
+    }
+
+    .reviews-list {
+        gap: 20px;
     }
 }
