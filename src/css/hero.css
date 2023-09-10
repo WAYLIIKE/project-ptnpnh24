@@ -25,14 +25,13 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.28px;
-  margin-bottom: 8px;
+  margin-bottom: 40px;
   display: inline-block;
 }
 
 .hero-student {
   display: flex;
   gap: 40px;
-  margin-bottom: 63px;
 }
 .hero-student-list {
   display: flex;
@@ -69,9 +68,6 @@
   left: -24px;
 }
 .hero-student-link {
-  display: flex;
-  gap: 4px;
-  align-items: center;
 }
 .hero-student-text {
   font-size: 14px;
@@ -125,6 +121,16 @@
     padding-right: 20px;
     padding-top: 40px;
   }
+
+  .hero-student-link-id {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .hero-text-box {
+    margin-bottom: 31px;
+  }
 }
 
 /* tablet */
@@ -146,9 +152,6 @@
     max-width: 418px;
     margin-bottom: 40px;
   }
-  .hero-student {
-    margin-bottom: 40px;
-  }
   .hero-student-thumb {
     width: 54px;
     height: 54px;
@@ -159,6 +162,7 @@
     gap: 10px;
   }
   .hero-student-link {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -193,6 +197,7 @@
     padding-left: 32px;
     padding-right: 155px;
     padding-top: 64px;
+    margin-bottom: 40px;
   }
 }
 /* Desktop */
@@ -206,11 +211,6 @@
   }
   .hero-tittle {
     max-width: 563px;
-  }
-  .hero-text-box {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
   }
   .hero-tittle {
     font-size: 64px;

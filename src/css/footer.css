@@ -2,7 +2,7 @@
   padding-top: 40px;
   padding-bottom: 20px;
   font-family: var(--primary-font);
-  background-image: url(../img/footer/Graphic.png);
+  background-image: url(../img/bg-img/bg-img.png);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media only screen and (max-width: 374.98px) {
@@ -32,7 +32,7 @@
     margin-bottom: 50px;
   }
 }
-.footer-a-logo{
+.footer-a-logo {
   display: block;
   margin-bottom: 20px;
 }
@@ -45,7 +45,6 @@
   fill: var(--white);
   width: 123px;
   height: 16px;
-  
 }
 .footer-address {
   font-style: normal;
@@ -73,7 +72,7 @@
 .footer-contacts {
   display: block;
 }
-.footer-tel-per:not(:last-child){
+.footer-tel-per:not(:last-child) {
   margin-bottom: 10px;
 }
 .footer-tel {
@@ -89,7 +88,7 @@
 }
 .footer-social {
   display: flex;
-  gap: 40px ;
+  gap: 40px;
 }
 @media only screen and (max-width: 767.98px) {
   .footer-social {
@@ -97,7 +96,7 @@
   }
 }
 @media only screen and (min-width: 768px) {
-  .footer-social{
+  .footer-social {
     margin-right: 59px;
     gap: 25px;
   }
@@ -114,13 +113,13 @@
     gap: 100px;
   }
 }
-.footer-pages{
+.footer-pages {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 @media only screen and (min-width: 1280px) {
-  .footer-pages{
+  .footer-pages {
     gap: 20px;
   }
 }
