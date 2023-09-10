@@ -29,12 +29,18 @@
   display: inline-block;
 }
 
+.hero-icon-star {
+  fill: transparent;
+  stroke: var(--black);
+}
+
 .hero-student {
   display: flex;
   gap: 40px;
 }
 .hero-student-list {
   display: flex;
+  margin-right: -25px;
 }
 .hero-student-review {
   display: flex;
@@ -66,8 +72,6 @@
   position: relative;
   z-index: 1;
   left: -24px;
-}
-.hero-student-link {
 }
 .hero-student-text {
   font-size: 14px;
