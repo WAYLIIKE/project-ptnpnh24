@@ -1,0 +1,150 @@
+/* Mentors section */
+
+@media only screen and (max-width: 767.98px) {
+  .mentors-section {
+    background: var(--black);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-section {
+    width: 704px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-section {
+    width: 1079px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-section {
+    width: 1189px;
+  }
+}
+
+.mentors-title {
+  margin-bottom: 40px;
+  color: var(--white);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.125;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-title {
+    margin-bottom: 50px;
+  }
+}
+
+.mentors-title-two {
+  color: var(--brown);
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 100px;
+    row-gap: 93px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-list {
+    gap: 93px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors-list {
+    gap: 113px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .mentors-item {
+    margin: 0 auto;
+  }
+
+  .mentors-ill {
+    margin: 16px auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-item {
+    max-width: 180px;
+  }
+  }
+
+@media only screen and (max-width: 767.98px) {
+  .mentors-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-content {
+    width: 194px;
+  }
+
+  .mentors-ill {
+    margin-bottom: 16px;
+  }
+}
+
+.mentors-title-mentors {
+  color: var(--white);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .mentors-title-mentors {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+  }
+}
+
+.mentors-desk {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors-desk {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
