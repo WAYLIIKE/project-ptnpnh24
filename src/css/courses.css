@@ -120,7 +120,7 @@
   .ourCourses-container {
     margin-bottom: 50px;
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
   }
 
   .courses {
@@ -141,6 +141,7 @@
   }
 
   .ourCourses-info {
+    width: 381px;
     margin: 0;
     font-size: 16px;
     line-height: 1.25;
