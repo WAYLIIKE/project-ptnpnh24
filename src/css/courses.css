@@ -88,6 +88,7 @@
 
 .ourCourses-item-icon {
   fill: #777777;
+  transition: all 0.3s;
 }
 .ourCourses-item-link:hover .ourCourses-item-icon,
 .ourCourses-item-link:focus .ourCourses-item-icon {
