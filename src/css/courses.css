@@ -4,6 +4,7 @@
 
 .ourCourses-title {
   white-space: nowrap;
+  margin-bottom: 20px;
   color: var(--white);
   font-size: 28px;
   font-style: normal;
@@ -28,7 +29,6 @@
   font-weight: 400;
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.28px;
-  margin-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -51,11 +51,8 @@
   background: var(--linear-gradient);
   counter-increment: my-counter;
   position: relative;
-  padding: 88px 28px 28px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 }
+
 .ourCourses-item::before {
   content: '0' counter(my-counter);
   color: rgba(255, 255, 255, 0.4);
@@ -92,17 +89,22 @@
 .ourCourses-item-icon {
   fill: #777777;
 }
-.ourCourses-item-icon:hover,
-.ourCourses-item-icon:focus {
+.ourCourses-item-link:hover .ourCourses-item-icon,
+.ourCourses-item-link:focus .ourCourses-item-icon {
   fill: var(--white);
 }
 
+.ourCourses-item-content {
+  margin: 88px 28px 28px;
+}
+
 .ourCourses-list-title {
-  width: 279px;
+  width: 265px;
   color: var(--white);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
+  margin-bottom: 164px;
 }
 
 .ourCourses-list-info {
@@ -126,6 +128,7 @@
   }
 
   .ourCourses-title {
+    margin: 0;
     font-size: 48px;
     line-height: 1.12; /* 112.5% */
     letter-spacing: -1.92px;
@@ -140,15 +143,15 @@
   .ourCourses-info {
     margin: 0;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
     letter-spacing: -0.32px;
   }
 
   .ourCourses-item {
     max-width: 342px;
     height: 452px;
-    padding: 96px 32px 32px;
   }
+
   .ourCourses-item::before {
     top: 32px;
     left: 32px;
@@ -159,15 +162,18 @@
     right: 32px;
   }
 
+  .ourCourses-item-content {
+    margin: 96px 32px 32px;
+  }
+
   .ourCourses-list-title {
-    width: 265px;
+    margin-bottom: 180px;
   }
 
   .ourCourses-list-info {
     width: 278px;
-
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
     letter-spacing: -0.32px;
   }
 
@@ -201,6 +207,9 @@
     }
     .ourCourses-list-info {
       width: 336px;
+    }
+    .ourCourses-list-title {
+      margin-bottom: 200px;
     }
   }
 }
