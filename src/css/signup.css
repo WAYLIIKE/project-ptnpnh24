@@ -43,11 +43,11 @@
 }
 
 .form-label {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .message-container {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .form-textarea {
@@ -77,7 +77,7 @@
     line-height: 28px; 
     text-transform: uppercase;
     margin-top: 40px;
-    margin-left: 20px;
+    margin: 15px;
 }
 
 .sign-up-text {
