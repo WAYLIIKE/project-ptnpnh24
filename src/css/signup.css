@@ -41,8 +41,8 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: var(--black,);
-    margin-bottom: 14px;
-
+    color: var(--white);
+    margin-bottom: 8px;
 }
 
 .form-textarea {
@@ -53,6 +53,7 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: var(--black,);
+    color: var(--white);
     display: block;
     resize: none;
     margin-bottom: 40px;
