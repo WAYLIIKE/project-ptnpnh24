@@ -1,3 +1,10 @@
+.hero {
+  padding-top: 160px;
+  z-index: 1;
+  position: relative;
+  background-image: url(../img/bg-img/bg-img.png);
+}
+
 .hero-container {
   background-color: var(--dark-gray);
   border-radius: 30px;
