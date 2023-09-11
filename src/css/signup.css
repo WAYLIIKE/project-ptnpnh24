@@ -1,3 +1,9 @@
+@media screen and (min-width: 1280px) {
+    .signup {
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 .signup-header {
     color: var(--white,);
@@ -137,7 +143,13 @@
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
+    .form-wrapper {
+        max-width: 480px;
+    }
+  }
+
+  @media only screen and (max-width: 1279.98px) {
     .cameras-container {
         display: none;
     }
