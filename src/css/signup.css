@@ -80,6 +80,14 @@
   line-height: 28px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  border: none;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.form-button:hover,
+.form-button:focus {
+  color: var(--brown);
+  background-color: var(--dark-gray);
 }
 
 .sign-up-text {

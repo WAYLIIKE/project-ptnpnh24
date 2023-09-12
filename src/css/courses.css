@@ -77,8 +77,9 @@
   justify-content: center;
   top: 28px;
   right: 28px;
+  cursor: pointer;
   position: absolute;
-  transition: all 0.3s;
+  transition: all var(--animation);
 }
 
 .ourCourses-item-link:hover,
@@ -88,7 +89,7 @@
 
 .ourCourses-item-icon {
   fill: #777777;
-  transition: all 0.3s;
+  transition: all var(--animation);
 }
 .ourCourses-item-link:hover .ourCourses-item-icon,
 .ourCourses-item-link:focus .ourCourses-item-icon {

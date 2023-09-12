@@ -5,4 +5,5 @@
   --linear-gradient: (180deg, #060707 0%, #1d1d1d 100%);
   --brown: #bea69e;
   --white: #fff;
+  --animation: 175ms ease-in-out;
 }
