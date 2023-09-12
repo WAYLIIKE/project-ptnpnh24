@@ -14,7 +14,8 @@
         type="text"
         name="user-name"
         placeholder="Enter your name"
-        pattern="[A-Za-z0-9]"
+        maxlength="32"
+        pattern="[A-Za-z]{1,32}"
       /></label></div>
       <div class="input-wrapper">
       <label class="form-label">
@@ -23,7 +24,7 @@
         type="email"
         name="user-email"
         placeholder="Enter your email"
-        pattern="[A-Za-z0-9]"
+        pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}"
       />
         </label>
       </div>
@@ -36,7 +37,7 @@
           placeholder="Message"
           rows="7"
           required
-          minlength="7"
+          minlength="4"
         ></textarea>
       </div>
           <button class="form-button" type="submit">SEND</button>
@@ -58,8 +59,8 @@
       <div class="smaller-camera">
         <img src="./img/signup/camera1.png"
         alt=""
-        width="150"
-        height="124"
+        width="163"
+        height="154"
         />
       </div>
       <div class="bigger-camera">

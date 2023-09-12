@@ -1,184 +1,189 @@
 @media screen and (min-width: 1280px) {
-    .signup {
-        display: flex;
-        justify-content: space-between;
-    }
+  .signup {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .signup-header {
-    color: var(--white,);
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
-    margin-bottom: 20px;
+  color: var(--white);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -1.92px;
+  margin-bottom: 20px;
 }
 
 .tittle-up {
-    color: var(--brown,);
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+  color: var(--brown);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -1.92px;
 }
 
 .signup-text {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; 
-    letter-spacing: -0.32px;
-    margin-bottom: 40px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  margin-bottom: 40px;
 }
 
 .form-input {
-    width: 100%;
-    height: 47px;
-    flex-shrink: 0;
-    padding-left: 18px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    background: var(--black,);
-    color: var(--white);
+  width: 100%;
+  height: 47px;
+  flex-shrink: 0;
+  padding-left: 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--black);
+  color: var(--white);
 }
 
 .input-wrapper {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .textarea-wrapper {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .form-textarea {
-    width: 100%;
-    height: 112px;
-    flex-shrink: 0;
-    padding: 18px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    background: var(--black,);
-    color: var(--white);
-    display: block;
-    resize: none;
+  width: 100%;
+  height: 112px;
+  flex-shrink: 0;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--black);
+  color: var(--white);
+  display: block;
+  resize: none;
 }
 
 .form-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    background: var( --white,);
-    width: 100%;
-    height: 60px;
-    color: var(--black,);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px; 
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--white);
+  width: 100%;
+  height: 60px;
+  color: var(--black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .sign-up-text {
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; 
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 .policy-link {
-    color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration-line: underline;
 }
 
 .cameras-container {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
 .smaller-camera {
-    min-width: 180px;
-    height: 288px;
-    background-color: var(--brown);
-    border-radius: 1000px;
-    margin-top: auto;
+  min-width: 180px;
+  height: 288px;
+  background-color: var(--brown);
+  border-radius: 1000px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
 }
 
 .bigger-camera {
-    min-width: 340px;
-    height: 540px;
-    background-color: var(--dark-gray);
-    border-radius: 1000px;
+  min-width: 340px;
+  height: 540px;
+  background-color: var(--dark-gray);
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
-    .input-wrapper {
-        margin-bottom: 14px;
-    }
-
-    .tittle-up {
-        font-size: 48px;
-    }
-    .signup-header{
-        font-size: 48px;
-    }
-    .signup-text {
-        font-size: 16px;
-    }
-    .form-input {
-        width: 480px;
-        height: 60px;
-        flex-shrink: 0;
-    }
-    .form-textarea {
-        width: 480px;
-        height: 120px
-    }
-    .form-button {
-        width: 480px;
-        height: 60px;
-    }
-    .sign-up-text {
-        width: 480px;
-    }
+  .input-wrapper {
+    margin-bottom: 14px;
   }
 
-  @media screen and (min-width: 768px) {
-    .form-wrapper {
-        max-width: 480px;
-    }
+  .tittle-up {
+    font-size: 48px;
   }
+  .signup-header {
+    font-size: 48px;
+  }
+  .signup-text {
+    font-size: 16px;
+  }
+  .form-input {
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .form-textarea {
+    width: 480px;
+    height: 120px;
+  }
+  .form-button {
+    width: 480px;
+    height: 60px;
+  }
+  .sign-up-text {
+    width: 480px;
+  }
+}
 
-  @media only screen and (max-width: 1279.98px) {
-    .cameras-container {
-        display: none;
-    }
+@media screen and (min-width: 768px) {
+  .form-wrapper {
+    max-width: 480px;
   }
-  @media only screen and (min-width: 1280px) {
-    .signup-header{
-        font-size: 48px;
-    }
-    .tittle-up {
-        font-size: 48px;
-    }
-    .signup-text {
-        width: 480px;
-    }
-  }
+}
 
-  @media only screen and (min-width: 1440px) {
-    .signup-form {
-      width: 480px;
-      gap: 200px;
-    }
+@media only screen and (max-width: 1279.98px) {
+  .cameras-container {
+    display: none;
   }
+}
+@media only screen and (min-width: 1280px) {
+  .signup-header {
+    font-size: 48px;
+  }
+  .tittle-up {
+    font-size: 48px;
+  }
+  .signup-text {
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .signup-form {
+    width: 480px;
+    gap: 200px;
+  }
+}
