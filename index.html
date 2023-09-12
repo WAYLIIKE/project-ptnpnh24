@@ -20,7 +20,7 @@
     />
     <!-- Custom styles -->
     
-    <link rel="stylesheet" href="/project-ptnpnh24/assets/index-c5f0f9a8.css">
+    <link rel="stylesheet" href="/project-ptnpnh24/assets/index-12ebb168.css">
   </head>
   <body>
     <!-- Header by Anya Semonenko -->
@@ -64,9 +64,9 @@
         </svg>
       </button>
     </div>
-    <button class="header-button" type="button">
-      <a href="#signup">Sign up</a>
-    </button>
+    <a href="#signup"
+      ><button class="header-button" type="button">Sign up</button></a
+    >
   </div>
 </header>
 
@@ -380,7 +380,8 @@
         type="text"
         name="user-name"
         placeholder="Enter your name"
-        pattern="[A-Za-z0-9]"
+        maxlength="32"
+        pattern="[A-Za-z]{1,32}"
       /></label></div>
       <div class="input-wrapper">
       <label class="form-label">
@@ -389,7 +390,7 @@
         type="email"
         name="user-email"
         placeholder="Enter your email"
-        pattern="[A-Za-z0-9]"
+        pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}"
       />
         </label>
       </div>
@@ -402,7 +403,7 @@
           placeholder="Message"
           rows="7"
           required
-          minlength="7"
+          minlength="4"
         ></textarea>
       </div>
           <button class="form-button" type="submit">SEND</button>
@@ -424,8 +425,8 @@
       <div class="smaller-camera">
         <img src="/project-ptnpnh24/assets/camera1-45d430b1.png"
         alt=""
-        width="150"
-        height="124"
+        width="163"
+        height="154"
         />
       </div>
       <div class="bigger-camera">
