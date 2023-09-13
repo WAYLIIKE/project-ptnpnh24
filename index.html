@@ -20,7 +20,7 @@
     />
     <!-- Custom styles -->
     
-    <link rel="stylesheet" href="/project-ptnpnh24/assets/index-7cfc3894.css">
+    <link rel="stylesheet" href="/project-ptnpnh24/assets/index-82e2b942.css">
   </head>
   <body>
     <!-- Header by Anya Semonenko -->
@@ -58,7 +58,11 @@
           </svg>
         </span>
       </a>
-      <button class="burger-menu-button">
+      <button
+        class="menu-toggle js-open-menu burger-menu-button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
         <svg class="burger-menu-icon" width="32" height="22">
           <use href="/project-ptnpnh24/assets/sprite-1f6a171f.svg#icon-burger-menu"></use>
         </svg>
@@ -638,9 +642,44 @@
 
 
     <!-- Mobile menu by Юлия Левчук -->
-    
+    <div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="menu-close" width="32" height="32">
+      <use href="/project-ptnpnh24/assets/sprite-1f6a171f.svg#icon-close"></use>
+    </svg>
+  </button>
+  <ul class="mobile-menu">
+    <li class="mobile-menu-list">
+      <a href="#about" class="mobile-menu-link link">About us</a>
+    </li>
+    <li class="mobile-menu-list">
+      <a href="#courses" class="mobile-menu-link link">Our courses</a>
+    </li>
+    <li class="mobile-menu-list">
+      <a href="#mentors" class="mobile-menu-link link">Our mentors</a>
+    </li>
+    <li class="mobile-menu-list">
+      <a href="#reviews" class="mobile-menu-link link">Reviews</a>
+    </li>
+    <li class="mobile-menu-list">
+      <a href="#contacts" class="mobile-menu-link link">Contacts</a>
+    </li>
+  </ul>
+  <img
+    class="mobile-photo"
+    src="/project-ptnpnh24/assets/camera-tablet-menu-db35a8ad.jpg"
+    alt=""
+  />
+</div>
+
 
     <!-- Script for mobile menu -->
-    <script defer src=""></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
