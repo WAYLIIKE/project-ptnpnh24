@@ -1,8 +1,20 @@
 .hero {
-  padding-top: 160px;
+  padding-top: 90px;
   z-index: 1;
   position: relative;
   background-image: url(../img/bg-img/bg-img.png);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 160px;
+  }
 }
 
 .hero-container {
